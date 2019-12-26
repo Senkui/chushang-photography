@@ -1,0 +1,303 @@
+/* css reset */
+*{padding:0;margin:0}
+a{text-decoration:none}
+#container{width:1920px;margin:20px auto;}
+ /* 头部+搜索框 */
+#top{
+    width:100%;
+    height:100px;   
+}
+#top img{
+    width:180px;height:76px;
+    float:left;
+    margin-left:270px;
+}
+#top input{
+    width:270px;
+    height:55px;
+    float:right;
+    margin-right:430px;
+    margin-top:12px;
+    border:2px solid #23211e;
+    outline:0px;
+    background-image:url("aboutUs/search.jpg");
+    background-repeat:no-repeat;
+    background-position:96% center;
+    background-size:40px 40px;
+}
+ /* 标题头 */
+ #title{
+    width:100%;
+    height:55px;
+    background-color:#23211e;
+    clear:both;
+    display:flex;
+    align-items:center;
+ }
+#title ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+    width:1440px;
+}
+#title li{
+    font:20px 思源黑体;
+    color:#fff;
+    /* margin:12px 75px 0px 0px; */
+}
+#title li:hover{color:#cd8f42;}
+#title #d1{
+    margin-left:323px;
+}
+/* 背景banner */
+#banner{
+    width:100%;height:600px;
+    background-image:url("book/banner.png");
+    margin-bottom:100px;
+}
+.container_desc{
+    /* margin:0 auto; */
+    /* margin-top:100px; */
+    text-align:center;
+}
+/* 所有的中间标题图 */
+.container_desc img{
+    width:390px;
+    vertical-align:bottom;
+    margin-bottom:-50px;
+}
+.container_desc p{
+    color:#999;
+}
+/* 精选系列 */
+#select{
+    width:1200px;
+    margin:36px auto 50px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+#select div{
+    text-align: center;
+}
+#select p{
+    font:24px 思源黑体;
+    color:#666;
+    margin:20px 0 50px;
+}
+/* fast_book快速预约 */
+#fast_book{
+    padding-top:40px;
+    padding-bottom:50px;
+    box-sizing:border-box;
+    width:100%;
+    background:#ccc;
+}
+#fast_two{
+    width:1200px;
+    margin:58px auto 0px;
+    display:flex;
+}
+#fast_two>div{
+    position: relative;
+    width:286px;
+    float:left;
+    margin-left:14px;
+    background:#fff;
+    text-align:center;
+}
+#fast_two img{
+    position: absolute;
+    top:-23px;
+    left:91px;
+}
+#fast_two div div{
+    position: relative;
+}
+#fast_two .fast_p1{
+    font:24px 思源黑体;
+    color:#666;
+    position:absolute;
+    top:-66px;
+    left:107px;
+}
+#fast_two div div p+p{
+    margin:50px 0 25px;
+    font:24px 思源黑体;
+    color:#444;
+}
+#fast_two .fast_p3{margin:0;}
+#fast_two input{
+    width:200px;height:55px;
+    border:1px solid #999;
+    margin:5px 0 5px;
+    outline: none;
+    border-radius:4px;
+}
+#fast_two a{
+    display:block;
+    width:100px;
+    margin:0 auto;
+    font:18px 思源黑体;
+    color:#fff;
+    background: #cd8f42;
+    padding:8px 16px;
+    border-radius:25px;
+}
+#fast_two  div div p span{
+    width:10px;height:10px;
+    display:block;
+    background:#23211e;
+    border-radius:50%;
+} 
+#fast_two .span1{
+    float:left;
+    margin:14px 0px 13px 45px;
+}
+#fast_two .span2{
+    float:right;
+    margin:14px 45px 13px 0px;
+}
+#fast_two div div div{
+    overflow-y: scroll;
+    height:200px;
+}
+#fast_two div div div p{
+    margin:0 auto;
+    width:200px;
+    font:18px 思源黑体;
+    color:#999;
+    border:1px solid #999;
+    padding:8px 16px;
+    margin-bottom:10px;
+    margin-top:0;
+    box-sizing: border-box;
+}
+#fast_book  .book_scrol_p{
+    border-top:10px solid #cd8f42;
+    border-right:10px solid #fff;
+    border-bottom:10px solid #fff;
+    border-left:10px solid #fff;
+    width:0;
+    margin:15px auto 40px;
+}
+/* LOCATION 位置 */
+#location{
+    width:100%;
+    padding:50px 0 100px;
+    box-sizing: border-box;
+}
+#location::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+#location div+div>img{
+    margin-top:40px;
+    float:left;
+    margin-left:430px;
+}
+#location div+div>div{
+    background:#ccc;
+    width:455px;
+    height:570px;
+    float:left;
+    text-align: center;
+    padding:48px 0 65px 46px;
+    box-sizing: border-box;
+}
+
+#location div+div div input{
+    background-image: url("book/搜索.png");
+    background-repeat:no-repeat;
+    background-position:95% center;
+    width:380px;
+    height:38px;
+    border-radius:3px;
+    border:none;
+    outline: 0;
+    display: block;
+    margin-bottom:40px;
+}
+#location div+div div ul{
+    /* overflow-y:scroll; */
+    overflow-x:hidden;
+    text-align:left;
+    height:300px;
+    background: #ccc;
+    width:408px;
+}
+#location div+div div ul li div{
+    margin:-38px 0px 0px 45px;
+    text-align: left;
+    padding:0;
+}
+#location div+div div ul li p{
+    width:340px;
+    font:18px 思源黑体;
+    color:#999;
+    margin-top:5px;
+}
+/* footer 页脚 */
+#footer{
+    width:100%;height:560px;
+    background:#23211e;
+    box-sizing:border-box;
+    padding-top:110px;
+}
+#footer>ul{
+    list-style-type:none;
+    float:left;
+    margin-right:110px;
+}
+#footer ul:first-child{
+    margin-left:390px;
+}
+#footer>ul li{
+    margin-bottom:50px;
+    font:18px 思源黑体;
+    color:#bbb;
+}
+#footer>ul li:last-child{
+    margin-bottom:0;
+}
+#footer>ul li:first-child{
+    font:20px 思源黑体;
+    color:#fff;
+}
+#footer>ul li img{
+    vertical-align:middle;
+    margin-right:20px;
+}
+#footer>span{
+    float:left;
+    width:2px;
+    height:207px;
+    background:#fff;
+    margin:74px 0px 0px -381px;
+    display:block;
+}
+#footer>div{
+    clear:both;
+    width:100%;height:40px;
+    border-top:1px solid #fff;
+    display:flex;
+    justify-content:center;
+    padding:14px;
+    box-sizing:border-box;
+    position:relative;
+    top:75px;
+}
+#footer>div ul{
+    list-style-type:none;
+    display:flex;
+}
+#footer>div p:first-child{
+    margin:0 180px 0 355px;
+}
+#footer div li{
+    margin:0 17px 0;
+}
+#footer a{color:#fff;}
+

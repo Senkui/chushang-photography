@@ -1,0 +1,346 @@
+/* css reset */
+*{margin:0px;padding:0px;}
+a{text-decoration:none}
+/* 头部+搜索框 */
+#container{width:1920px;margin:20px auto;}
+#top{
+    width:100%;
+    height:100px;   
+}
+#top img{
+    width:180px;height:76px;
+    float:left;
+    margin-left:270px;
+}
+#top input{
+    width:270px;
+    height:55px;
+    float:right;
+    margin-right:430px;
+    margin-top:12px;
+    border:2px solid #22221D;
+    outline:0px;
+    background-image:url("homePage/search.jpg");
+    background-repeat:no-repeat;
+    background-position:96% center;
+    background-size:40px 40px;
+}
+/* 标题头 */
+#title{
+    width:100%;
+    height:55px;
+    background-color:#22221D;
+}
+#title ul{
+    list-style-type:none;
+}
+#title li{
+    float:left;
+    font:20px 思源黑体;
+    color:#fff;
+    margin:12px 75px 0px 0px;
+}
+#title li:hover{color:#cd8f42;}
+#title #d1{
+    margin-left:323px;
+}
+/* 背景banner*/
+#banner{
+    width:100%;height:650px;
+    background-image:url("homePage/banner.png");
+    margin-bottom:90px;
+}
+/* about us */
+#aboutUs{
+    width:100%;
+    text-align:center;
+}
+#aboutUs p{
+    color:#bbb;
+    font:56px Arial; 
+}
+#aboutUs img{width:752px;}
+#aboutUs div{
+    width:100%;height:550px;
+    margin:50px 0 90px;
+    background-image:url("homePage/初心不改.png");
+}
+/* 艺术写真 */
+#artistic{
+    width:100%;
+    text-align:center;
+}
+#artistic p{
+    color:#bbb;
+    font:56px Arial; 
+}
+#artistic div{
+    width:1314px;height:50px;
+    margin:45px auto 90px;
+    border-bottom:1px solid #BCBCBC;
+}
+#artistic ul{
+    list-style-type:none;
+}
+#artistic li{
+    float:left;
+    font:18px 思源黑体;
+    font-weight:bold;
+    color:#666;
+    margin:5px 64px 15px 0px;
+}
+#artistic #d2{
+    margin-left:257px;  
+}
+#artistic div+img{
+    margin-bottom:100px;
+}
+/* 经典系列 */
+#classic{
+    width:100%;height:740px;
+    background:#22221D;
+    text-align:center;
+    margin-bottom:85px;
+    /* padding-top:10px;
+    box-sizing:border-box; */
+}
+#classic p{
+    color:#333;
+    font:56px Arial; 
+    margin-top:30px;
+}
+#classic>img{margin-bottom:70px;margin-top:-50px;}
+#classic>div>img{margin:0 10px;}
+#classic .img2{
+    position:relative;
+    top:-50px;
+}
+#classic ul{list-style-type:circle inside;}
+#classic li{
+    float:left;
+    margin:21px;
+    color:#674E2B;
+    font-size:50px;
+    position:relative;
+    left:850px;
+}
+/* 婚纱摄影 */
+#wedding{width:100%;text-align:center;}
+#wedding p{
+    color:#bbb;
+    font:56px Arial; 
+}
+#booking{
+    width:100%;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:80px;
+}
+#booking .p1{
+    width:175px;height:48px;
+    font-size:22px;
+    color:#FAF9F5;
+    background:#CC9042;
+    display:inline-block;
+    line-height:48px;
+    border-radius:3px;
+}
+/* 摄影师介绍 */
+#poto{
+    width:100%;
+    text-align:center;
+}
+#poto>p{
+    color:#bbb;
+    font:56px Arial; 
+}
+#poto>img{
+    margin:-35px 0px 75px;
+}
+#poto1{
+    width:1200px;
+    margin-left:360px;
+}
+#poto1>img{
+    float:left;
+    margin-top:25px;
+    margin-left:25px;
+    margin-bottom:166px;
+}
+#mrZack{
+    float:left;
+    width:721px;
+    text-align:left;
+    margin-left:50px;
+    margin-bottom:166px;
+    color:#999;
+}
+.poto_p1{
+    font:36px 思源黑体;
+    color:#333;
+    margin-top:20px;
+}
+#mrZack p:nth-child(3){font-size:18px;}
+.poto_p2{
+    font:30px 思源黑体;
+    color:#666;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.poto_a{
+    color:#999;
+    font-size:24px;
+    margin-top:65px;
+    display:inline-block;
+}
+.poto_a:hover{color:#cd8f42;}
+#mrZack+div{
+    width:384px;height:328px;
+    background:#cc9042;
+}
+/* 第二位摄影师 */
+#poto2{
+    width:1200px;
+    margin-left:360px;
+}
+#poto2>img{
+    float:right;
+    width:384px;height:328px;
+    margin-bottom:166px;
+}
+#msChen{
+    float:right;
+    width:706px;
+    text-align:right;
+    margin-right:50px;
+    color:#999;
+    margin-bottom:166px;
+}
+/* 第三个摄影师 */
+#poto3{
+    width:1200px;
+    margin-left:360px;
+}
+#poto3>img{
+    float:left;
+    width:384px;height:328px;
+    margin-bottom:88px;
+}
+#mrLi{
+    float:left;
+    width:610px;
+    text-align:left;
+    margin-left:50px;
+    color:#999;
+    margin-bottom:88px;
+}
+/* 新闻动态 */
+#news{
+    width:1200px;
+    margin-left:360px;
+    text-align:center;
+    clear:both;
+}
+#news>p{
+    font:56px Arial;
+    color:#bbb;
+    text-align:center;
+}
+#news>div{
+    float:left;
+    margin:80px 0 70px 0;
+}
+#news #news2{margin:80px 30px 70px 30px;}
+#news>img{
+    margin-left:75px;
+    margin-bottom:40px;
+    position:relative;
+    left:-50px;
+}
+#news div div{
+    width:379px;
+    text-align:center;
+}
+#news div div p{
+    font:18px 思源黑体;
+    color:#999;
+    margin:30px 0 20px;
+}
+#news .news_p{
+    font:28px 思源黑体;
+    color:#333;
+    margin-top:40px;
+}
+#news div div a{
+    font:24px 思源黑体;
+    color:#333;
+    margin-bottom:70px;
+    float:right;
+}
+#news div div #more{margin-top:22px;}
+#news div div a:hover{color:#cd8f42;}
+/* 拍摄影像 */
+#shot{
+    width:100%;
+    text-align:center;
+    clear:both;
+}
+#shot p{
+    font:56px Arial;
+    color:#bbb;
+    text-align:center;  
+}
+#shot img{
+    margin-bottom:50px;
+}
+#shot img+img{
+    height:600px;
+    margin:0px;
+}
+/* 底部信息 */
+#footer{
+    width:100%;height:560px;
+    background:#23211e;
+    box-sizing:border-box;
+    padding-top:110px;
+}
+#footer table{
+    width:1220px;
+    height:400px;
+    margin-left:480px;
+}
+#footer th{
+    font:20px 思源黑体;
+    color:#fff;
+    text-align:left;
+}
+#footer td{
+    font:18px 思源黑体;
+    color:#bbb;
+}
+#footer td img{
+    vertical-align:middle;
+    margin-right:20px;
+}
+#footer .footer_fw{
+    width:190px;
+}
+#footer>div{
+    width:100%;height:40px;
+    border-top:1px solid #fff;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    box-sizing:border-box;
+}
+#footer>div ul{
+    list-style-type:none;
+    display:flex;
+}
+#footer>div p:first-child{
+    margin:0 180px 0 355px;
+}
+#footer div li{
+    margin:0 17px 0;
+}
+#footer a{color:#fff;}

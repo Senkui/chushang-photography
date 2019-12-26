@@ -1,0 +1,195 @@
+/* css reset */
+*{padding:0;margin:0}
+a{text-decoration:none}
+#container{width:1920px;margin:20px auto;}
+ /* 头部+搜索框 */
+#top{
+    width:100%;
+    height:100px;   
+}
+#top img{
+    width:180px;height:76px;
+    float:left;
+    margin-left:270px;
+}
+#top input{
+    width:270px;
+    height:55px;
+    float:right;
+    margin-right:430px;
+    margin-top:12px;
+    border:2px solid #23211e;
+    outline:0px;
+    background-image:url("aboutUs/search.jpg");
+    background-repeat:no-repeat;
+    background-position:96% center;
+    background-size:40px 40px;
+}
+ /* 标题头 */
+ #title{
+    width:100%;
+    height:55px;
+    background-color:#23211e;
+    clear:both;
+    display:flex;
+    align-items:center;
+ }
+#title ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+    width:1440px;
+}
+#title li{
+    font:20px 思源黑体;
+    color:#fff;
+    /* margin:12px 75px 0px 0px; */
+}
+#title li:hover{color:#cd8f42;}
+#title #d1{
+    margin-left:323px;
+}
+/* 背景banner */
+#banner{
+    width:100%;height:600px;
+    background-image:url("show/banner.png");
+    margin-bottom:100px;
+}
+.container_desc{
+    /* margin:0 auto; */
+    /* margin-top:100px; */
+    text-align:center;
+}
+/* 所有的中间标题图 */
+.container_desc img{
+    width:545px;
+    height:110px;
+}
+/* fresh清新文艺 star明星体验*/
+#fresh,#star,#beauty{
+    width:1200px;
+    margin:60px auto 100px;
+    display:flex;
+    justify-content:space-between;
+}
+/* stra 明星体验 */
+#star div{
+    text-align:left;
+    font:24px 思源黑体;
+    color:#cd8f42;
+    margin-top:30px;
+}
+#star .star_p2{
+    width:777px;
+    font:18px 思源黑体;
+    color:#999;
+    margin:28px 0 40px;
+}
+#star div div{
+    width:96px;
+    height:1px;
+    background:#cd8f42;
+    margin-top:5px;
+}
+#star div img{float:left;}
+#star div img+img{float:right;}
+/* beauty美人如画 */
+#beauty>div{
+    position:relative;
+}
+#beauty div img+img{
+    position:absolute;
+    right:-130px;
+    bottom:-90px;
+}
+#beauty div+div{
+    width:40%;
+}
+#beauty div+div p{
+    text-align:left;
+    font:24px 思源黑体;
+    color:#cd8f42;
+    margin-top:30px;
+}
+#beauty div+div p+p{
+    font:18px 思源黑体;
+    color:#999;
+    margin:28px 0 230px;
+}
+#beauty div+div a{
+    font:18px 思源黑体;
+    color:#fff;
+    padding:7px 23px;
+    border-radius:3px;
+    background:#cd8f42;
+    border:1px solid #cd8f42;
+    margin:0px 0px 0px 90px;
+}
+#beauty div+div a+a{
+    color:#cd8f42;
+    background:#fff;
+    margin:0;
+}
+/* footer 页脚 */
+#footer{
+    width:100%;height:560px;
+    background:#23211e;
+    box-sizing:border-box;
+    padding-top:110px;
+    margin-top:183px;
+}
+#footer>ul{
+    list-style-type:none;
+    float:left;
+    margin-right:110px;
+}
+#footer ul:first-child{
+    margin-left:390px;
+}
+#footer>ul li{
+    margin-bottom:50px;
+    font:18px 思源黑体;
+    color:#bbb;
+}
+#footer>ul li:last-child{
+    margin-bottom:0;
+}
+#footer>ul li:first-child{
+    font:20px 思源黑体;
+    color:#fff;
+}
+#footer>ul li img{
+    vertical-align:middle;
+    margin-right:20px;
+}
+#footer>span{
+    float:left;
+    width:2px;
+    height:207px;
+    background:#fff;
+    margin:74px 0px 0px -381px;
+    display:block;
+}
+#footer>div{
+    clear:both;
+    width:100%;height:40px;
+    border-top:1px solid #fff;
+    display:flex;
+    justify-content:center;
+    padding:14px;
+    box-sizing:border-box;
+    position:relative;
+    top:75px;
+}
+#footer>div ul{
+    list-style-type:none;
+    display:flex;
+}
+#footer>div p:first-child{
+    margin:0 180px 0 355px;
+}
+#footer div li{
+    margin:0 17px 0;
+}
+#footer a{color:#fff;}
